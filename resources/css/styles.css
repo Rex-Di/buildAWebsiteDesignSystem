@@ -1,0 +1,136 @@
+html {
+    background-color: rgb(177, 177, 177);
+}
+
+main {
+    position: relative; 
+    top: 80px;
+    background-color: rgb(177, 177, 177);
+  }
+
+header {
+    background-color: rgb(177, 177, 177);
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    margin: 0px;
+    padding: 0;
+
+  }
+
+header li {
+    width: 200px;
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+:visited {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin: 10px 200px 10px 30px;
+    width: 1500px;
+    max-width: 1200px;
+    background-color: rgb(138, 138, 207);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-weight: 200;
+    line-height: 25px;
+    font-family: "Monoton";
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Poller One";
+    text-align: center;
+}
+
+h3 {
+    font-weight: 200;
+    line-height: 18px;
+    font-family: "Reem Kufi";
+}
+
+p, li, header {
+    font-weight: 100;
+    line-height: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.colours p {
+    display: inline-block;
+    height: 200px;
+    width: 600px;
+    max-width: 200px;
+    color: white;
+    padding: 10px;
+    overflow: scroll;
+    margin: 20px;
+    text-align: center;
+}
+
+.blue {
+    background: rgb(138, 138, 207);
+    border: 1px black solid;
+}
+
+.grey {
+    background: rgb(209, 209, 209);
+}
+
+.black {
+    background: rgb(24, 24, 24);
+}
+
+#white {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.monoton {
+    font-family: "Monoton";
+}
+
+.poller {
+    font-family: "Poller One";
+}
+
+.reem {
+    font-family: "Reem Kufi";
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#specialHeading1{
+    text-align: left;
+}
+
+#specialHeading2{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
